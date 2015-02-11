@@ -1,17 +1,92 @@
 
 
+/* This is the main part of the page */
 
 body {
     background-color: #DFFFFF;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+    
 }
 
-a {
+/* This is the navigation part of the page */
+
+a:link {
 	text-decoration: none;
 	color: #0188FE;
 }
+a:visited{
+	color: #0188FE;
+}
+
+a:hover{
+	color: #B8010A;
+}
+
+/* This is the paragraph text that is linked with an id */
 
 p.test {
 	width: 50em;
 	margin-top: 20px;
+	line-height: 130%;
 	opacity: 0.7;
+	text-indent: 5%;
+}
+
+/* This is a link to the font that I used for the header */
+
+@font-face{
+	font-family: 'HoboStd', sans-serif; src: url ("font/HoboStd");
+
+}
+
+h1{
+	font-family: HoboStd, sans-serif;
+	font-size: 600%;
+	font-weight: bold;
+	color: #FFFFFF;
+	background-color:#148BAF;
+	padding: 20px 10px 60px 10px;
+	text-align: center;
+	text-shadow: 2px 2px #025f80;
+	height: 70px;
+	border-style: solid;
+    border-width: 5px;
+    border-color: #137070;
+    border-radius: 2px;
+    box-shadow: 10px 10px 5px #769D95;
+}
+
+figure{
+	display: block;
+	margin-left: 0px;
+	background-color: #137070;
+	height: 350px;
+	padding: 10px 10px 20px 10px;
+	width: 90%;
+}
+
+figcaption{
+	color: #FFFFFF;
+}
+
+
+div{
+	height: 210px;
+
+}
+
+ol{
+	list-style-type: decimal;
+}
+
+ul{
+	list-style-type: square;
+	color: #00A181;
+}
+
+em{
+	color: #01919E;
+	display: block;
 }
