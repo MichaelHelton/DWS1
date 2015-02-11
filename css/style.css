@@ -84,6 +84,7 @@ ol{
 ul{
 	list-style-type: square;
 	color: #00A181;
+	padding: 0px 0px 15px 80px;
 }
 
 em{
