@@ -10,6 +10,37 @@ body {
     
 }
 
+/*  Main Navigation part of the web page */
+
+a.nav:link, a.nav:visited {
+	display: block;
+	width: 120px;
+	background-color: #0D678D;
+	text-decoration: none;
+	text-align: center;
+	font-weight: bold;
+	text-transform: uppercase;
+	padding: 5px;
+	color: #9FCA8A;
+}
+
+a.nav:active, a.nav:hover{
+	color: #FFFFFF;
+	background-color: #01919E;
+}
+
+.list1{
+	list-style-type: none;
+	margin: 5;
+	padding: 5;
+}
+
+.list{
+	float: left;
+	text-align: center;
+
+}
+
 /* This is the navigation part of the page */
 
 a:link, a:visited {
@@ -111,36 +142,6 @@ ul{
 	list-style-type: square;
 	color: #00A181;
 	padding: 0px 0px 15px 80px;
-}
-/* Navigation part of the web page */
-
-a.nav:link, a.nav:visited {
-	display: block;
-	width: 120px;
-	background-color: #0D678D;
-	text-decoration: none;
-	text-align: center;
-	font-weight: bold;
-	text-transform: uppercase;
-	padding: 5px;
-	color: #9FCA8A;
-}
-
-a.nav:active, a.nav:hover{
-	color: #FFFFFF;
-	background-color: #01919E;
-}
-
-.list1{
-	list-style-type: none;
-	margin: 5;
-	padding: 5;
-}
-
-.list{
-	float: left;
-	text-align: center;
-
 }
 
 em{
