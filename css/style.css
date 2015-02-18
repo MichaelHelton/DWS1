@@ -12,17 +12,15 @@ body {
 
 /* This is the navigation part of the page */
 
-a:link {
+a:link, a:visited {
 	text-decoration: none;
 	color: #0188FE;
 }
-a:visited{
-	color: #0188FE;
-}
 
-a:hover{
+a:active, a:hover{
 	color: #B8010A;
 }
+
 
 /* This is the paragraph text that is linked with an id */
 
@@ -59,21 +57,49 @@ h1{
 }
 
 figure{
-	display: block;
 	margin-left: 0px;
 	background-color: #137070;
-	height: 350px;
-	padding: 10px 10px 20px 10px;
-	width: 90%;
+	height: 326px;
+	width: 100%;
 }
 
 figcaption{
 	color: #FFFFFF;
 }
 
+/* This is the coding for the images */
+#pic1{
+	float: left;
+	margin: auto 15 15 auto;
+	padding: 0px 20px 10px 10px;
+	width: 200px; 
+	height: 200px;
+}
+
+#pic2{
+	float: left;
+	width: 400px;
+	height: 286px;
+	padding: 10px 10px 10px 10px;
+}
+
+#pic3{
+	float: left; 
+	margin: 10px 15px 15px 10px;
+	width: 400px;
+	height:266px;
+
+}
 
 div{
 	height: 220px;
+	width: 600px;
+
+}
+
+#3{
+ height:306px;
+ width: 100%;
 
 }
 
@@ -85,6 +111,36 @@ ul{
 	list-style-type: square;
 	color: #00A181;
 	padding: 0px 0px 15px 80px;
+}
+/* Navigation part of the web page */
+
+a.nav:link, a.nav:visited {
+	display: block;
+	width: 120px;
+	background-color: #0D678D;
+	text-decoration: none;
+	text-align: center;
+	font-weight: bold;
+	text-transform: uppercase;
+	padding: 5px;
+	color: #9FCA8A;
+}
+
+a.nav:active, a.nav:hover{
+	color: #FFFFFF;
+	background-color: #01919E;
+}
+
+.list1{
+	list-style-type: none;
+	margin: 5;
+	padding: 5;
+}
+
+.list{
+	float: left;
+	text-align: center;
+
 }
 
 em{
