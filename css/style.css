@@ -70,6 +70,7 @@ p.test {
 
 }
 
+/* This is the Header of the webpage */
 h1{
 	font-family: HoboStd, sans-serif;
 	font-size: 600%;
@@ -87,6 +88,7 @@ h1{
     box-shadow: 10px 10px 5px #769D95;
 }
 
+/* This is the Figure and Figcaption css */
 figure{
 	margin-left: 0px;
 	background-color: #137070;
@@ -98,7 +100,7 @@ figcaption{
 	color: #FFFFFF;
 }
 
-/* This is the coding for the images */
+/* This is the css for the images */
 #pic1{
 	float: left;
 	margin: auto 15 15 auto;
