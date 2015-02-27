@@ -1,6 +1,6 @@
 
 
-/* This is the main part of the page */
+/* This is the body of the page */
 
 body {
     background-color: #DFFFFF;
@@ -148,4 +148,33 @@ ul{
 em{
 	color: #01919E;
 	display: inline;
+}
+
+/* table design */
+table{
+	width: 100%;
+	padding: 5px;
+	border-style: solid;
+	border-radius: 5px;
+	border-color: #137070;
+}
+
+th{
+	font-family: HoboStd, sans-serif;
+	font-size: 2em;
+	font-weight: bold;
+	color: #FFFFFF;
+	background-color:#148BAF;
+	width: 800px;
+	border: 1px solid black;
+	height: 60px;
+}
+
+td{
+	width: 800px;
+	border: 1px solid black;
+	background-color: #6dcff6;
+}
+td:hover{
+	background-color: #5cb8dc;
 }
